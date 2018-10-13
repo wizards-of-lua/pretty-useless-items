@@ -20,32 +20,31 @@ public class ModItems {
   static List<Item> ITEMS = new ArrayList<>();
 
   public static void init() {
-    ITEMS.add(new ItemBasic("amulet-blue").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("amulet-green").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("amulet-pink").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("amulet-red").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("car").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("clay-golem").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("coin-gold").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("coin-silver").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("dynamite").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS
-        .add(new ItemBasic("hammer-diamond").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("hammer-gold").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("hammer-stone").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("key").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("money").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("parcel").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("scroll-green").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("scroll-orange").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("scroll-pink").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("scroll-red").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("teddy").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("usb-stick").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("wand-blue").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("wand-green").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("wand-orange").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
-    ITEMS.add(new ItemBasic("wand-red").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(32));
+    ITEMS.add(new ItemBasic("amulet-blue").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("amulet-green").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("amulet-pink").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("amulet-red").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("car").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("clay-golem").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("coin-gold").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("coin-silver").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("dynamite").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("hammer-diamond").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("hammer-gold").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("hammer-stone").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("key").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("money").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("parcel").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("scroll-green").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("scroll-orange").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("scroll-pink").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("scroll-red").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("teddy").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("usb-stick").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("wand-blue").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("wand-green").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("wand-orange").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("wand-red").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
   }
 
   @SubscribeEvent

@@ -1,5 +1,5 @@
 [{
-  "modid": "wol.pui",
+  "modid": "pui",
   "name": "Pretty Useless Items",
   "description": "Items that are pretty useless",
   "version": "${version}",
@@ -8,7 +8,7 @@
   "updateUrl": "",
   "authorList": ["mickkay","MrNickKay"],
   "credits": "",
-  "logoFile": "assets/wol.pui/logo.png",
+  "logoFile": "assets/pui/logo.png",
   "screenshots": [],
   "dependencies": []
 }]

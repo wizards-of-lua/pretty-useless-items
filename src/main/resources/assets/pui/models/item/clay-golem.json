@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "wol.pui:items/hammer-stone"
+        "layer0": "pui:items/clay-golem"
      }
      
 }

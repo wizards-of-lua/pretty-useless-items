@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "wol.pui:items/scroll-green"
+        "layer0": "pui:items/scroll-pink"
      }
      
 }

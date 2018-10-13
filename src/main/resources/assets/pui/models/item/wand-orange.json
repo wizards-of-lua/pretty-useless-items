@@ -1,7 +1,7 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "wol.pui:items/wand-orange"
+        "layer0": "pui:items/wand-orange"
      }
      
 }
