@@ -44,7 +44,34 @@ public class ModItems {
     ITEMS.add(new ItemBasic("wand-blue").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
     ITEMS.add(new ItemBasic("wand-green").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
     ITEMS.add(new ItemBasic("wand-orange").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
-    ITEMS.add(new ItemBasic("wand-red").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("wand-red").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));    
+    ITEMS.add(new ItemBasic("bottle-broken").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("bottle-message").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("bottle").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("fork").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("key2").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("knive").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("letter").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("matches").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("moneybag").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("paintbrush").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("pencil").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("ring-blue").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("ring-gold").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("ring-green").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("ring-orange").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("ring-pink").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("ring-red").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("rubber-duck").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("sickle-diamond").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("sickle-gold").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("sickle-stone").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(1));
+    ITEMS.add(new ItemBasic("soccer-ball").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("spoon").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("rock").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("tusk").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+    ITEMS.add(new ItemBasic("wrench").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
+
   }
 
   @SubscribeEvent
