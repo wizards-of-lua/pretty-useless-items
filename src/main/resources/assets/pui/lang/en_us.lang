@@ -49,3 +49,7 @@ item.spoon.name=Spoon
 item.rock.name=Rock
 item.tusk.name=Tusk
 item.wrench.name=Wrench
+item.bandage.name=Bandage
+item.medkit.name=Medkit
+item.shield-potion-big.name=Big Shield Potion
+item.shield-potion-mini.name=Mini Shield Potion

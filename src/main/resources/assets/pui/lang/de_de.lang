@@ -51,3 +51,7 @@ item.rock.name=Kieselstein
 item.tusk.name=Fangzahn
 item.wrench.name=Schraubenschlüssel
 
+item.bandage.name=Verbandszeug
+item.medkit.name=Medkit
+item.shield-potion-big.name=Großer Schildtrank
+item.shield-potion-mini.name=Kleiner Schildtrank

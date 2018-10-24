@@ -71,7 +71,12 @@ public class ModItems {
     ITEMS.add(new ItemBasic("rock").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
     ITEMS.add(new ItemBasic("tusk").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
     ITEMS.add(new ItemBasic("wrench").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(64));
-
+    
+    ITEMS.add(new ItemBasic("bandage").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(15));
+    ITEMS.add(new ItemBasic("medkit").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(3));
+    ITEMS.add(new ItemBasic("shield-potion-big").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(3));
+    ITEMS.add(new ItemBasic("shield-potion-mini").setCreativeTab(CreativeTabs.MISC).setMaxStackSize(15));
+    
   }
 
   @SubscribeEvent
